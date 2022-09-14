@@ -14,9 +14,8 @@
     fileName: # default is main.py
     # The name of the FastAPI object inside your '{moduleDir}/{fileName}.py'. This is used to do 'from {moduleDir}.{fileName} import {appName}'.
 
-    appName: # default is app
+    appName: givemefive # default is app
     # Only use this if your application uses the 'fastapi-versioning' package.
-If the 'fastapi-versioning' is being used each version of your application has its own  individual FastAPI app that is ran in conjunction. This variable defines which FastAPI API  to use to generate the client. Use the package's VersionedFastAPI.prefix_format string,  something like 'v{number}' typically (e.g. 'v1').
 
     fastapiVersioning: # optional
     # The name of the output file. Do not include extension.
